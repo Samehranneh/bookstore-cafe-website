@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book's Info</title>
+
+    <!--css file link-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/book_info_style.css">
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
+
+    <!--font-awesome link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+
+<body>
+    <!--header section-->
+    <header class="header">
+        <a href="#" class="logo"> <img src="images/brand_icon.jpg" alt=""> Bookly<br>Caffee </a>
+
+        <nav class="navbar">
+            <a href="index.html#home">home</a>
+            <a href="index.html#services">services</a>
+            <a href="index.html#categories">categories</a>
+            <a href="index.html#blogs">blogs</a>
+            <a href="index.html#about">about</a>
+            <a href="#contact">contact</a>
+        </nav>
+
+        <div class="icons">
+            <div class="fas fa-bars" id="menu-btn"></div>
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+            <div class="fas fa-user" id="login-btn"></div>
+        </div>
+
+        <form action="" class="search-form">
+            <input type="search" id="=search-box" placeholder="search here...">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+        <div class="shopping-cart">
+            <a href="store_cart.html" target="_blank">
+                <h3 id="cart-header">shopping cart</h3>
+            </a>
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="images/book1.jpg" alt="">
+                <div class="content">
+                    <h3>book's title</h3>
+                    <span class="price">$5.99/</span>
+                    <span class="quantity">qty : 1</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="images/book2.jpg" alt="">
+                <div class="content">
+                    <h3>book's title</h3>
+                    <span class="price">$5.99/</span>
+                    <span class="quantity">qty : 1</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="images/book3.jpg" alt="">
+                <div class="content">
+                    <h3>book's title</h3>
+                    <span class="price">$5.99/</span>
+                    <span class="quantity">qty : 1</span>
+                </div>
+            </div>
+            <div class="total">total: $17.97</div>
+            <a href="checkout.html" target="_blank" class="custom-btn">checkout</a>
+        </div>
+
+        <form action="" class="login-form">
+            <h3>login now</h3>
+            <input type="email" placeholder="your email" class="box">
+            <input type="password" placeholder="your password" class="box">
+            <p>forgot your password? <a href="#">click here!</a> </p>
+            <p>don't have an account? <a href="#">create one!</a> </p>
+            <input type="submit" value="Login" class="btn">
+        </form>
+    </header>
+    <!--header ends-->
+
+    <!-- product info section -->
+    <section class="book-info container py-5">
+        <div class="row">
+            <div class="book-details col-md-6">
+                <h1 class="fw-bold">Book's title here</h1>
+                <h2 class="fw-bold">$5.99</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A tempora molestiae eaque numquam soluta
+                    asperiores, hic dolor doloremque. Similique dolorem, fuga nostrum, at accusantium hic perferendis
+                    deleniti qui nobis quam sunt quaerat dicta sit? Obcaecati, repudiandae vitae consequuntur hic
+                    recusandae totam. Eum id nemo a incidunt cupiditate ipsa corporis quasi nobis, fuga neque cumque
+                    quibusdam sunt ad dignissimos iusto reprehenderit distinctio. Minima ut tenetur ducimus, vitae
+                    obcaecati itaque commodi fugit?</p>
+                <button class="custom-btn my-3">Add to Cart</button>
+            </div>
+            <div class="col-md-6">
+                <img src="images/book-cover.jpg" alt="Book Image" class="img-fluid rounded">
+                <button class="custom-btn btn-secondary my-3 d-block mx-auto">Read Sample</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- author info section -->
+    <section class="author-info container py-5">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="images/book-author.jpg" alt="Author Image" class="img-fluid rounded">
+            </div>
+            <div class="author-details col-md-6">
+                <h1 class="fw-bold mb-4">Biography</h1>
+                <h2 class="fw-bold">Author's Name</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A tempora molestiae eaque numquam soluta
+                    asperiores, hic dolor doloremque. Similique dolorem, fuga nostrum, at accusantium hic perferendis
+                    deleniti qui nobis quam sunt quaerat dicta sit? Obcaecati, repudiandae vitae consequuntur hic
+                    recusandae totam. Eum id nemo a incidunt cupiditate ipsa corporis quasi nobis, fuga neque cumque
+                    quibusdam sunt ad dignissimos iusto reprehenderit distinctio. Minima ut tenetur ducimus, vitae
+                    obcaecati itaque commodi fugit?</p>
+                <button class="custom-btn my-3">Read More</button>
+            </div>
+        </div>
+    </section>
+    <!-- author ends -->
+
+    <!--footer section-->
+    <section class="footer" id="contact">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3><img src="images/brand_icon.jpg" alt=""> Bookly<br>Caffee</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis, sunt.</p>
+                <div class="share">
+                    <a href="#" id="fb" class="fab fa-facebook-f"></a>
+                    <a href="#" id="ttr" class="fab fa-twitter"></a>
+                    <a href="#" id="insta" class="fab fa-instagram"></a>
+                    <a href="#" id="ytube" class="fab fa-youtube"></a>
+                    <a href="#" id="lnk-in" class="fab fa-linkedin"></a>
+                </div>
+            </div>
+
+
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="#" class="links"><i class="fas fa-phone"></i> +963-999-999-111 </a>
+                <a href="#" class="links"><i class="fas fa-phone"></i> +963-999-222-111 </a>
+                <a href="#" class="links"><i class="fas fa-envelope"></i> some-name@gmail.com </a>
+                <a href="#" class="links"><i class="fas fa-map-marker-alt"></i> city, country - 11223 </a>
+            </div>
+
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="index.html#home" class="links"><i class="fas fa-arrow-right"></i> home </a>
+                <a href="index.html#services" class="links"><i class="fas fa-arrow-right"></i> services </a>
+                <a href="index.html#categories" class="links"><i class="fas fa-arrow-right"></i> categories </a>
+                <a href="index.html#blogs" class="links"><i class="fas fa-arrow-right"></i> blogs </a>
+                <a href="index.html#about" class="links"><i class="fas fa-arrow-right"></i> about </a>
+            </div>
+
+            <div class="box">
+                <h3>newsletter</h3>
+                <p>Be the first to know</p>
+                <input type="email" placeholder="your email" class="email">
+                <input type="submit" value="subscribe" class="btn">
+                <img src="images/payment.png" class="payment-img" alt="">
+            </div>
+
+        </div>
+
+    </section>
+    <!--footer ends-->
+
+    <!--js file link-->
+    <script src="js/script.js"></script>
+    <script src="bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

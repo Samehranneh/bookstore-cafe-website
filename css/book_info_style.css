@@ -1,0 +1,74 @@
+.book-info {
+    margin-top: 8%;
+}
+
+.book-details h1 {
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+}
+
+.book-details h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.book-details p {
+    font-size: 1.7rem;
+    padding-right: 15rem;
+}
+
+.author-info {
+    border-top: var(--border);
+}
+
+.author-details h1 {
+    font-size: 2rem;
+    color: var(--light-blue);
+    font-style: italic;
+    margin-top: 1rem;
+}
+
+.author-details h2 {
+    font-size: 3.5rem;
+}
+
+.author-details p {
+    font-size: 1.7rem;
+}
+
+/* media queries */
+
+@media (max-width: 991px) {
+    .book-info img {
+        margin-top: 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .book-info {
+        text-align: center;
+    }
+
+    .book-info p {
+        padding-right: 0;
+    }
+
+    .author-info {
+        text-align: center;
+    }
+}
+
+@media (max-width: 450px) {
+    .book-info {
+        margin-top: 12%;
+        text-align: center;
+    }
+
+    .book-info p {
+        padding-right: 0;
+    }
+
+    .author-info {
+        text-align: center;
+    }
+}
